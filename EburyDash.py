@@ -17,8 +17,6 @@ calls = pd.read_csv('calls.csv', parse_dates=['call_date'])
 st.sidebar.header("Filters")
 country_filter = st.sidebar.multiselect("Country", clients['country'].unique())
 segment_filter = st.sidebar.multiselect("Segment", clients['segment'].unique())
-industry_filter = st.sidebar.multiselect("Industry", clients['industry'].unique())
-cpm_filter = st.sidebar.multiselect("CPM", cpms['name'].unique())
 
 # --- APPLY FILTERS ---
 filtered_clients = clients.copy()
@@ -30,13 +28,7 @@ if country_filter:
 if segment_filter:
     filtered_clients = filtered_clients[filtered_clients['segment'].isin(segment_filter)]
     filtered_transactions = filtered_transactions[filtered_transactions['client_id'].isin(filtered_clients['client_id'])]
-if industry_filter:
-    filtered_clients = filtered_clients[filtered_clients['industry'].isin(industry_filter)]
-    filtered_transactions = filtered_transactions[filtered_transactions['client_id'].isin(filtered_clients['client_id'])]
-if cpm_filter:
-    selected_cpms = cpms[cpms['name'].isin(cpm_filter)]['cpm_id']
-    filtered_clients = filtered_clients[filtered_clients['portfolio_manager_id'].isin(selected_cpms)]
-    filtered_transactions = filtered_transactions[filtered_transactions['cpm_id'].isin(selected_cpms)]
+
 
 # --- TABS ---
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
