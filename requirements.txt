@@ -1,0 +1,6 @@
+streamlit>=1.30
+pandas>=2.1
+numpy>=1.26
+plotly>=5.18
+seaborn>=0.12
+altair>=4.2
