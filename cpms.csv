@@ -1,81 +1,141 @@
-cpm_id,name,team
-1,CPM_1,Team C
-2,CPM_2,Team A
-3,CPM_3,Team C
-4,CPM_4,Team C
-5,CPM_5,Team A
-6,CPM_6,Team A
-7,CPM_7,Team C
-8,CPM_8,Team B
-9,CPM_9,Team C
-10,CPM_10,Team C
-11,CPM_11,Team C
-12,CPM_12,Team C
-13,CPM_13,Team A
-14,CPM_14,Team C
-15,CPM_15,Team B
-16,CPM_16,Team A
-17,CPM_17,Team B
-18,CPM_18,Team B
-19,CPM_19,Team B
-20,CPM_20,Team B
-21,CPM_21,Team A
-22,CPM_22,Team A
-23,CPM_23,Team B
-24,CPM_24,Team B
-25,CPM_25,Team A
-26,CPM_26,Team A
-27,CPM_27,Team A
-28,CPM_28,Team C
-29,CPM_29,Team C
-30,CPM_30,Team C
-31,CPM_31,Team B
-32,CPM_32,Team C
-33,CPM_33,Team B
-34,CPM_34,Team B
-35,CPM_35,Team C
-36,CPM_36,Team B
-37,CPM_37,Team C
-38,CPM_38,Team C
-39,CPM_39,Team A
-40,CPM_40,Team C
-41,CPM_41,Team A
-42,CPM_42,Team C
-43,CPM_43,Team C
-44,CPM_44,Team A
-45,CPM_45,Team A
-46,CPM_46,Team C
-47,CPM_47,Team B
-48,CPM_48,Team A
-49,CPM_49,Team B
-50,CPM_50,Team B
-51,CPM_51,Team B
-52,CPM_52,Team A
-53,CPM_53,Team B
-54,CPM_54,Team A
-55,CPM_55,Team B
-56,CPM_56,Team C
-57,CPM_57,Team C
-58,CPM_58,Team A
-59,CPM_59,Team C
-60,CPM_60,Team C
-61,CPM_61,Team B
-62,CPM_62,Team A
-63,CPM_63,Team B
-64,CPM_64,Team B
-65,CPM_65,Team B
-66,CPM_66,Team B
-67,CPM_67,Team B
-68,CPM_68,Team B
-69,CPM_69,Team B
-70,CPM_70,Team A
-71,CPM_71,Team C
-72,CPM_72,Team B
-73,CPM_73,Team B
-74,CPM_74,Team B
-75,CPM_75,Team B
-76,CPM_76,Team B
-77,CPM_77,Team B
-78,CPM_78,Team C
-79,CPM_79,Team C
-80,CPM_80,Team B
+cpm_id,cpm_name,country,region,segment,team,hire_date,tenure_months,ramp_status,target_clients,target_revenue_gbp,active_flag
+CPM_001,CPM 1,UK,UK,SMB,UK SMB Team,2022-03-30,46,Senior,164,526225,True
+CPM_002,CPM 2,UK,UK,SMB,UK SMB Team,2024-04-14,21,Senior,181,734053,True
+CPM_003,CPM 3,UK,UK,SMB,UK SMB Team,2025-01-17,12,Live,244,607473,True
+CPM_004,CPM 4,UK,UK,SMB,UK SMB Team,2022-01-13,49,Senior,244,1435518,True
+CPM_005,CPM 5,UK,UK,SMB,UK SMB Team,2022-10-09,40,Senior,161,1119176,True
+CPM_006,CPM 6,UK,UK,SMB,UK SMB Team,2023-06-18,31,Senior,154,531244,True
+CPM_007,CPM 7,UK,UK,SMB,UK SMB Team,2025-04-21,9,Live,177,743962,True
+CPM_008,CPM 8,UK,UK,SMB,UK SMB Team,2022-12-30,37,Senior,227,527824,True
+CPM_009,CPM 9,UK,UK,SMB,UK SMB Team,2022-09-06,41,Senior,175,1250800,True
+CPM_010,CPM 10,UK,UK,SMB,UK SMB Team,2022-03-09,47,Senior,239,1071412,True
+CPM_011,CPM 11,UK,UK,Mid-Market,UK Mid-Market Team,2023-06-23,31,Senior,74,3884119,True
+CPM_012,CPM 12,UK,UK,Mid-Market,UK Mid-Market Team,2022-07-11,43,Senior,77,2027257,True
+CPM_013,CPM 13,UK,UK,Mid-Market,UK Mid-Market Team,2024-12-07,13,Live,104,3772573,True
+CPM_014,CPM 14,UK,UK,Mid-Market,UK Mid-Market Team,2023-12-03,26,Senior,77,2652128,True
+CPM_015,CPM 15,UK,UK,Mid-Market,UK Mid-Market Team,2024-08-15,17,Live,108,3411779,True
+CPM_016,CPM 16,UK,UK,Enterprise,UK Enterprise Team,2025-04-03,9,Live,22,11374122,True
+CPM_017,CPM 17,UK,UK,Enterprise,UK Enterprise Team,2025-04-14,9,Live,31,10770619,True
+CPM_018,CPM 18,UK,UK,Enterprise,UK Enterprise Team,2022-06-11,44,Senior,28,5728977,True
+CPM_019,CPM 19,UK,UK,Enterprise,UK Enterprise Team,2023-04-03,34,Senior,37,7094235,True
+CPM_020,CPM 20,UK,UK,Enterprise,UK Enterprise Team,2023-09-15,28,Senior,22,14261704,True
+CPM_021,CPM 21,France,EU West,SMB,France SMB Team,2024-03-08,23,Senior,230,1148564,True
+CPM_022,CPM 22,France,EU West,SMB,France SMB Team,2023-10-20,27,Senior,223,701629,True
+CPM_023,CPM 23,France,EU West,SMB,France SMB Team,2025-06-09,7,Live,155,1193384,True
+CPM_024,CPM 24,France,EU West,SMB,France SMB Team,2024-07-20,18,Senior,248,803445,True
+CPM_025,CPM 25,France,EU West,SMB,France SMB Team,2025-05-19,8,Live,179,1408573,True
+CPM_026,CPM 26,France,EU West,SMB,France SMB Team,2025-04-06,9,Live,198,791476,True
+CPM_027,CPM 27,France,EU West,SMB,France SMB Team,2023-04-15,33,Senior,231,1374628,True
+CPM_028,CPM 28,France,EU West,SMB,France SMB Team,2023-10-13,27,Senior,170,888162,True
+CPM_029,CPM 29,France,EU West,SMB,France SMB Team,2023-11-02,27,Senior,176,1202729,True
+CPM_030,CPM 30,France,EU West,SMB,France SMB Team,2024-05-01,21,Senior,239,1482153,True
+CPM_031,CPM 31,France,EU West,Mid-Market,France Mid-Market Team,2021-12-30,49,Senior,101,2299483,True
+CPM_032,CPM 32,France,EU West,Mid-Market,France Mid-Market Team,2022-05-31,44,Senior,100,2717807,True
+CPM_033,CPM 33,France,EU West,Mid-Market,France Mid-Market Team,2022-11-01,39,Senior,106,3026811,True
+CPM_034,CPM 34,France,EU West,Mid-Market,France Mid-Market Team,2024-11-29,14,Live,89,3591551,True
+CPM_035,CPM 35,France,EU West,Mid-Market,France Mid-Market Team,2024-04-25,21,Senior,119,4684353,True
+CPM_036,CPM 36,France,EU West,Enterprise,France Enterprise Team,2021-12-20,49,Senior,37,8684531,True
+CPM_037,CPM 37,France,EU West,Enterprise,France Enterprise Team,2021-12-27,49,Senior,30,5938483,True
+CPM_038,CPM 38,France,EU West,Enterprise,France Enterprise Team,2024-07-17,18,Senior,21,10292423,True
+CPM_039,CPM 39,France,EU West,Enterprise,France Enterprise Team,2023-07-31,30,Senior,28,6110460,True
+CPM_040,CPM 40,France,EU West,Enterprise,France Enterprise Team,2024-08-23,17,Live,38,10279418,True
+CPM_041,CPM 41,Germany,DACH,SMB,Germany SMB Team,2024-08-20,17,Live,233,1023481,True
+CPM_042,CPM 42,Germany,DACH,SMB,Germany SMB Team,2023-08-11,30,Senior,232,981141,True
+CPM_043,CPM 43,Germany,DACH,SMB,Germany SMB Team,2025-01-10,12,Live,183,646413,True
+CPM_044,CPM 44,Germany,DACH,SMB,Germany SMB Team,2024-06-11,19,Senior,245,1088637,True
+CPM_045,CPM 45,Germany,DACH,SMB,Germany SMB Team,2022-10-22,39,Senior,183,1283300,True
+CPM_046,CPM 46,Germany,DACH,SMB,Germany SMB Team,2022-07-20,42,Senior,204,1441435,True
+CPM_047,CPM 47,Germany,DACH,SMB,Germany SMB Team,2022-07-22,42,Senior,201,879580,True
+CPM_048,CPM 48,Germany,DACH,SMB,Germany SMB Team,2024-08-06,17,Live,167,1034277,True
+CPM_049,CPM 49,Germany,DACH,SMB,Germany SMB Team,2023-01-23,36,Senior,161,1292495,True
+CPM_050,CPM 50,Germany,DACH,SMB,Germany SMB Team,2025-07-25,6,Live,164,660265,True
+CPM_051,CPM 51,Germany,DACH,Mid-Market,Germany Mid-Market Team,2022-04-23,45,Senior,70,4854145,True
+CPM_052,CPM 52,Germany,DACH,Mid-Market,Germany Mid-Market Team,2023-06-18,31,Senior,98,2266454,True
+CPM_053,CPM 53,Germany,DACH,Mid-Market,Germany Mid-Market Team,2023-09-02,29,Senior,84,4499337,True
+CPM_054,CPM 54,Germany,DACH,Mid-Market,Germany Mid-Market Team,2023-03-16,34,Senior,93,3054507,True
+CPM_055,CPM 55,Germany,DACH,Mid-Market,Germany Mid-Market Team,2022-09-22,40,Senior,115,2048154,True
+CPM_056,CPM 56,Germany,DACH,Enterprise,Germany Enterprise Team,2022-01-05,49,Senior,23,14008867,True
+CPM_057,CPM 57,Germany,DACH,Enterprise,Germany Enterprise Team,2024-05-01,21,Senior,40,10707197,True
+CPM_058,CPM 58,Germany,DACH,Enterprise,Germany Enterprise Team,2025-03-15,10,Live,29,12294150,True
+CPM_059,CPM 59,Germany,DACH,Enterprise,Germany Enterprise Team,2024-12-10,13,Live,34,5054447,True
+CPM_060,CPM 60,Germany,DACH,Enterprise,Germany Enterprise Team,2024-05-08,20,Senior,36,7997281,True
+CPM_061,CPM 61,Spain,Southern EU,SMB,Spain SMB Team,2022-12-25,37,Senior,163,1412804,True
+CPM_062,CPM 62,Spain,Southern EU,SMB,Spain SMB Team,2022-04-28,45,Senior,188,1382554,True
+CPM_063,CPM 63,Spain,Southern EU,SMB,Spain SMB Team,2022-03-31,46,Senior,214,1138551,True
+CPM_064,CPM 64,Spain,Southern EU,SMB,Spain SMB Team,2024-09-17,16,Live,169,892077,True
+CPM_065,CPM 65,Spain,Southern EU,SMB,Spain SMB Team,2024-12-03,14,Live,219,1499816,True
+CPM_066,CPM 66,Spain,Southern EU,SMB,Spain SMB Team,2022-11-08,39,Senior,150,1128038,True
+CPM_067,CPM 67,Spain,Southern EU,SMB,Spain SMB Team,2024-01-05,25,Senior,212,520422,True
+CPM_068,CPM 68,Spain,Southern EU,SMB,Spain SMB Team,2025-03-14,10,Live,196,1421406,True
+CPM_069,CPM 69,Spain,Southern EU,SMB,Spain SMB Team,2024-02-08,23,Senior,180,560738,True
+CPM_070,CPM 70,Spain,Southern EU,SMB,Spain SMB Team,2024-06-23,19,Senior,222,1492948,True
+CPM_071,CPM 71,Spain,Southern EU,Mid-Market,Spain Mid-Market Team,2025-05-21,8,Live,65,4038391,True
+CPM_072,CPM 72,Spain,Southern EU,Mid-Market,Spain Mid-Market Team,2025-06-10,7,Live,108,4234331,True
+CPM_073,CPM 73,Spain,Southern EU,Mid-Market,Spain Mid-Market Team,2025-02-14,11,Live,68,4767195,True
+CPM_074,CPM 74,Spain,Southern EU,Mid-Market,Spain Mid-Market Team,2023-03-01,35,Senior,120,4306043,True
+CPM_075,CPM 75,Spain,Southern EU,Mid-Market,Spain Mid-Market Team,2024-11-25,14,Live,76,4213224,True
+CPM_076,CPM 76,Spain,Southern EU,Enterprise,Spain Enterprise Team,2022-06-05,44,Senior,33,8553384,True
+CPM_077,CPM 77,Spain,Southern EU,Enterprise,Spain Enterprise Team,2022-10-21,39,Senior,26,10229731,True
+CPM_078,CPM 78,Spain,Southern EU,Enterprise,Spain Enterprise Team,2023-08-04,30,Senior,40,11264956,True
+CPM_079,CPM 79,Spain,Southern EU,Enterprise,Spain Enterprise Team,2023-05-16,32,Senior,36,12574680,True
+CPM_080,CPM 80,Spain,Southern EU,Enterprise,Spain Enterprise Team,2025-02-24,11,Live,27,8769795,True
+CPM_081,CPM 81,Italy,Southern EU,SMB,Italy SMB Team,2025-06-20,7,Live,193,522056,True
+CPM_082,CPM 82,Italy,Southern EU,SMB,Italy SMB Team,2022-07-13,43,Senior,220,741292,True
+CPM_083,CPM 83,Italy,Southern EU,SMB,Italy SMB Team,2022-07-12,43,Senior,178,507540,True
+CPM_084,CPM 84,Italy,Southern EU,SMB,Italy SMB Team,2025-06-06,7,Live,240,1161759,True
+CPM_085,CPM 85,Italy,Southern EU,SMB,Italy SMB Team,2025-07-01,7,Live,179,570674,True
+CPM_086,CPM 86,Italy,Southern EU,SMB,Italy SMB Team,2025-08-26,5,Ramp,192,574299,True
+CPM_087,CPM 87,Italy,Southern EU,SMB,Italy SMB Team,2022-12-12,38,Senior,180,792004,True
+CPM_088,CPM 88,Italy,Southern EU,SMB,Italy SMB Team,2022-01-28,48,Senior,212,724643,True
+CPM_089,CPM 89,Italy,Southern EU,SMB,Italy SMB Team,2022-10-21,39,Senior,166,1258490,True
+CPM_090,CPM 90,Italy,Southern EU,SMB,Italy SMB Team,2022-08-17,41,Senior,223,995631,True
+CPM_091,CPM 91,Italy,Southern EU,Mid-Market,Italy Mid-Market Team,2024-06-19,19,Senior,110,3983792,True
+CPM_092,CPM 92,Italy,Southern EU,Mid-Market,Italy Mid-Market Team,2023-07-19,30,Senior,72,2395631,True
+CPM_093,CPM 93,Italy,Southern EU,Mid-Market,Italy Mid-Market Team,2025-04-14,9,Live,102,3807959,True
+CPM_094,CPM 94,Italy,Southern EU,Mid-Market,Italy Mid-Market Team,2023-11-04,27,Senior,87,3724287,True
+CPM_095,CPM 95,Italy,Southern EU,Mid-Market,Italy Mid-Market Team,2023-03-18,34,Senior,115,2227210,True
+CPM_096,CPM 96,Italy,Southern EU,Enterprise,Italy Enterprise Team,2022-01-19,48,Senior,40,6651177,True
+CPM_097,CPM 97,Italy,Southern EU,Enterprise,Italy Enterprise Team,2025-06-27,7,Live,32,10692553,True
+CPM_098,CPM 98,Italy,Southern EU,Enterprise,Italy Enterprise Team,2025-03-20,10,Live,27,8214348,True
+CPM_099,CPM 99,Italy,Southern EU,Enterprise,Italy Enterprise Team,2024-10-05,15,Live,37,12526486,True
+CPM_100,CPM 100,Italy,Southern EU,Enterprise,Italy Enterprise Team,2025-01-15,12,Live,33,8078418,True
+CPM_101,CPM 101,Netherlands,EU West,SMB,Netherlands SMB Team,2024-04-07,22,Senior,209,761941,True
+CPM_102,CPM 102,Netherlands,EU West,SMB,Netherlands SMB Team,2025-05-28,8,Live,206,1347272,True
+CPM_103,CPM 103,Netherlands,EU West,SMB,Netherlands SMB Team,2022-09-28,40,Senior,162,553045,True
+CPM_104,CPM 104,Netherlands,EU West,SMB,Netherlands SMB Team,2022-03-04,47,Senior,219,1376638,True
+CPM_105,CPM 105,Netherlands,EU West,SMB,Netherlands SMB Team,2025-09-29,4,Ramp,161,1471366,True
+CPM_106,CPM 106,Netherlands,EU West,SMB,Netherlands SMB Team,2024-07-02,19,Senior,171,926156,True
+CPM_107,CPM 107,Netherlands,EU West,SMB,Netherlands SMB Team,2023-02-08,36,Senior,211,724130,True
+CPM_108,CPM 108,Netherlands,EU West,SMB,Netherlands SMB Team,2023-07-31,30,Senior,157,672634,True
+CPM_109,CPM 109,Netherlands,EU West,SMB,Netherlands SMB Team,2023-09-14,28,Senior,150,909386,True
+CPM_110,CPM 110,Netherlands,EU West,SMB,Netherlands SMB Team,2024-05-04,21,Senior,250,1323267,True
+CPM_111,CPM 111,Netherlands,EU West,Mid-Market,Netherlands Mid-Market Team,2023-04-12,34,Senior,78,3774221,True
+CPM_112,CPM 112,Netherlands,EU West,Mid-Market,Netherlands Mid-Market Team,2022-09-17,40,Senior,102,4041247,True
+CPM_113,CPM 113,Netherlands,EU West,Mid-Market,Netherlands Mid-Market Team,2024-12-16,13,Live,72,3244482,True
+CPM_114,CPM 114,Netherlands,EU West,Mid-Market,Netherlands Mid-Market Team,2024-08-10,17,Live,63,4429258,True
+CPM_115,CPM 115,Netherlands,EU West,Mid-Market,Netherlands Mid-Market Team,2022-10-15,40,Senior,63,3315353,True
+CPM_116,CPM 116,Netherlands,EU West,Enterprise,Netherlands Enterprise Team,2025-07-04,6,Live,21,14800873,True
+CPM_117,CPM 117,Netherlands,EU West,Enterprise,Netherlands Enterprise Team,2023-02-26,35,Senior,36,13910817,True
+CPM_118,CPM 118,Netherlands,EU West,Enterprise,Netherlands Enterprise Team,2024-12-11,13,Live,21,13519948,True
+CPM_119,CPM 119,Netherlands,EU West,Enterprise,Netherlands Enterprise Team,2025-05-18,8,Live,25,6149597,True
+CPM_120,CPM 120,Netherlands,EU West,Enterprise,Netherlands Enterprise Team,2022-06-29,43,Senior,22,8946066,True
+CPM_121,CPM 121,Sweden,Nordics,SMB,Sweden SMB Team,2023-07-26,30,Senior,165,1487335,True
+CPM_122,CPM 122,Sweden,Nordics,SMB,Sweden SMB Team,2022-08-20,41,Senior,181,1107040,True
+CPM_123,CPM 123,Sweden,Nordics,SMB,Sweden SMB Team,2022-06-30,43,Senior,155,1149468,True
+CPM_124,CPM 124,Sweden,Nordics,SMB,Sweden SMB Team,2025-05-15,8,Live,203,1189305,True
+CPM_125,CPM 125,Sweden,Nordics,SMB,Sweden SMB Team,2022-07-22,42,Senior,222,1048177,True
+CPM_126,CPM 126,Sweden,Nordics,SMB,Sweden SMB Team,2024-01-21,24,Senior,183,714181,True
+CPM_127,CPM 127,Sweden,Nordics,SMB,Sweden SMB Team,2022-01-27,48,Senior,241,829445,True
+CPM_128,CPM 128,Sweden,Nordics,SMB,Sweden SMB Team,2024-06-28,19,Senior,183,915011,True
+CPM_129,CPM 129,Sweden,Nordics,SMB,Sweden SMB Team,2025-02-03,11,Live,235,1176856,True
+CPM_130,CPM 130,Sweden,Nordics,SMB,Sweden SMB Team,2024-02-23,23,Senior,208,831535,True
+CPM_131,CPM 131,Sweden,Nordics,Mid-Market,Sweden Mid-Market Team,2025-06-03,7,Live,60,3922188,True
+CPM_132,CPM 132,Sweden,Nordics,Mid-Market,Sweden Mid-Market Team,2022-05-06,45,Senior,96,2419351,True
+CPM_133,CPM 133,Sweden,Nordics,Mid-Market,Sweden Mid-Market Team,2025-06-01,8,Live,94,2894033,True
+CPM_134,CPM 134,Sweden,Nordics,Mid-Market,Sweden Mid-Market Team,2022-12-28,37,Senior,76,2555563,True
+CPM_135,CPM 135,Sweden,Nordics,Mid-Market,Sweden Mid-Market Team,2023-11-15,26,Senior,116,2288531,True
+CPM_136,CPM 136,Sweden,Nordics,Enterprise,Sweden Enterprise Team,2024-06-16,19,Senior,31,9781295,True
+CPM_137,CPM 137,Sweden,Nordics,Enterprise,Sweden Enterprise Team,2024-12-10,13,Live,34,14113685,True
+CPM_138,CPM 138,Sweden,Nordics,Enterprise,Sweden Enterprise Team,2024-02-18,23,Senior,39,13874152,True
+CPM_139,CPM 139,Sweden,Nordics,Enterprise,Sweden Enterprise Team,2025-10-13,3,Ramp,37,10022741,True
+CPM_140,CPM 140,Sweden,Nordics,Enterprise,Sweden Enterprise Team,2022-02-09,48,Senior,23,7253031,True
